@@ -1,0 +1,95 @@
+1 Ans: Java is a high level language,it is introduce in 1995 by james gotiline,it is platform independence, write once and run any where,now it is maintend by oracle.It is a object oriented programing language,it support multithreading.it is secure because it creat byte code.
+Java is know as platform independence because of byte code/class.file it can be write onced and run anywhere.
+
+2 Ans: Jdk is a java development kit.It consist of bin,lib.jre.In bin folder we have java tool.javac for complile and java for run.it consist of jvm which converts byte code into machine code and it helps to excuet the code.it has jre it help to run the code.in lib folder we javafiles, packages,jarfiles.
+
+3 Ans: JVM is a java virtual machine it is platform independence.It converts the byte code into machine code and helps to excuet the code.
+
+4 Ans: The process of write once,run anywhere:
+firsrt we write a source code,then it is complied using javac,after complication java  create a bytecode/class.file.This bytecode is platform independence it can be run anywhere But the system should as jvm.Jvm runs byte code and helps in execution hence we say java is wora.
+
+5 Ans: Bytecode:if we compile a source code it creats bytecode.Machine can't understand human code because machice can only understand 0's and 1'.byte code convert human code into machine understandable code.because of byte code java is secure.No other programing language has it features.Because of these java is called platform independence.
+
+6 Ans: Datatype is type for an varible.syantax type variable name.example int price;int is type for variable price.
+primitive datatype there are 8 primitive datatype they are :byte,short,int,float,double,char,boolean,long.
+example:int a =10;
+
+Non Primitive datatype:string,arrys and user datatype.
+example:string abhi ="Abhi";
+
+7 Ans: Default values are the value which it is allocated when we creat an instance of an class.Default value for non primitive datatype is null,for primitive 0.
+
+class cap{
+public static void (String[] args){
+string name="nike";
+int size=36;
+float price=500;
+double ratings=10;
+char colour='R';
+Boolean isaviable=true;
+byte capnumber=10;
+
+public cap();
+}
+}
+
+class CapRunner{
+public static void main(String[] values){
+Cap cap=new cap();
+system.out.println("Default vales");
+system.out.println("Name :"+cap.name);
+system.out.println("Size :"+cap.size);
+system.out.println("Price :"+cap.price);
+system.out.println("Rating :"+cap.rating);
+system.out.println("Colour :"+cap.colour);
+system.out,println("IsAvaiable:"+cap.isavaiable);
+system.out.println("CapNumber:"+cap.capnumber);
+}
+}
+
+8 ANS: variables are use to store refernce in the memeory.It act as a container and to store values.syantx datatype variablename.Example int price=100;here price is a reference which pont to addres to memeory.we can declare varibles 3 types static,local,instance.
+If we decleare a variable usin static key word it is called as static variable.It can be declare inside class or method.
+local variables are declearde inside method with in that block 
+example for static variable
+class cap{
+public static void (String[] args){
+Static string name="nike";
+Staticint size=36;
+}
+}
+
+Example for local variable
+class cap{
+public static void (String[] args){
+static void getCap(){
+string name="nike";
+int size=36;
+}
+}
+}
+
+9 ANS:static method is devclare using static keyword. 
+class cap{
+public static void (String[] args){
+static void getCap(){
+string name="nike";
+int size=36;
+System.out.println("Size of the cap:"+size);
+}
+}
+}
+
+syantax: access specifier,non acces specifier,returntype,named of the method,
+
+
+10 Ans: class Sale{
+        public static void main(String[] args){
+        int[] sale={10,20,30,40,39,23,50};
+        int sum =0;
+        for(int :sale){
+        sum=sum++;
+        system.out.println("total sales:"+sum);
+}
+}
+      
+        
