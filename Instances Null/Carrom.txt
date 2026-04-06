@@ -1,0 +1,8 @@
+class Carrom{
+
+    void printInfo(String boardName, int price) {
+        System.out.println("Carrom Name: " + boardName);
+        System.out.println("Carrom Price: " + price);
+        System.out.println("Carrom details");
+    }
+}
